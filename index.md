@@ -4,7 +4,11 @@ title: MVPro Simple Emulator
 
 # MVPro Simple Emulator
 
-A simple Windows tool to set up and manage lightweight Android emulators. It installs the Android command-line tools and Java for you, lists your emulators, and gives each one Run, Stop, Edit, Rebuild and Delete buttons.
+MVPro Simple Emulator is a small Windows tool that sets up and manages lightweight Android emulators. It installs Google’s Android command-line tools and Java for you, lists your emulators, and gives each one Run, Stop, Edit, Rebuild and Delete buttons.
+
+Building Android apps and just need a device to test on? Create an emulator in a few clicks, then deploy to it with any tool that uses adb: Gradle, Flutter, React Native, or the command line. No heavy IDE needed.
+
+I like building things from scratch and keeping them simple and lightweight. This is an old project of mine that I’m sharing in case it’s useful to someone else. :)
 
 - [Privacy Policy](privacy.html)
 - [Report a problem or ask for help](https://github.com/novanandriyono/mvpro-emulator/issues)
