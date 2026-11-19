@@ -57,30 +57,12 @@
     flex: 0 0 auto;
     text-align: center;
   }
-  .hero-cta img { height: 64px; width: auto; display: block; }
+  .hero-cta img { width: 200px; height: auto; display: block; margin: 0 auto; }
   .hero-cta .note {
     margin-top: 12px;
     font-size: 0.85rem;
     color: rgba(255, 255, 255, 0.75);
   }
-  /* fallback button, shown only if the badge image fails to load */
-  .store-btn {
-    display: none;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 24px;
-    background: #fff;
-    color: #0a2540;
-    border-radius: 10px;
-    font-weight: 600;
-    text-decoration: none;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-  }
-  .store-btn svg { width: 26px; height: 26px; }
-  .store-btn small { display: block; font-weight: 400; font-size: 0.72rem; opacity: 0.7; line-height: 1.1; }
-  .badge-failed .store-btn { display: inline-flex; }
-  .badge-failed img { display: none; }
-
   /* CONTENT */
   main { max-width: 1040px; margin: 0 auto; padding: 56px 24px 24px; }
   .intro { max-width: 720px; margin: 0 auto 48px; text-align: center; color: var(--muted); font-size: 1.1rem; }
@@ -134,14 +116,8 @@
     </div>
 
     <div class="hero-cta" id="cta">
-      <a href="https://apps.microsoft.com/detail/9n38247dm8s4?mode=direct" aria-label="Get MVPro Simple Emulator from Microsoft Store">
-        <img src="https://get.microsoft.com/images/en-us%20dark.svg"
-             alt="Get it from Microsoft"
-             onerror="document.getElementById('cta').classList.add('badge-failed')">
-        <span class="store-btn">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="9" height="9" fill="#f25022"/><rect x="13" y="2" width="9" height="9" fill="#7fba00"/><rect x="2" y="13" width="9" height="9" fill="#00a4ef"/><rect x="13" y="13" width="9" height="9" fill="#ffb900"/></svg>
-          <span><small>Get it from</small>Microsoft Store</span>
-        </span>
+      <a href="https://get.microsoft.com/installer/download/9N38247DM8S4?referrer=appbadge" target="_self">
+        <img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" width="200"/>
       </a>
       <div class="note">For Windows 10 &amp; 11</div>
     </div>
